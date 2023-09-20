@@ -24,5 +24,5 @@ if doc is not None:
         }
     )
     st.write(data_set)
-    st.download_button('Download CSV', data=data_set.to_csv(), file_name=uploaded_file.name,
+    st.download_button('Download CSV', data=data_set.to_csv(), file_name=uploaded_file.name.split(".")[0],
                        mime='text/csv')
