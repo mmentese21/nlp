@@ -1,7 +1,4 @@
-import pathlib
-
 import spacy
-import csv
 
 
 def analiz(text):
