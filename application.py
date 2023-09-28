@@ -2,7 +2,7 @@ import pandas as pd
 from scripts.nlp_process import nlp_process
 import streamlit as st
 
-st.title('Doğal Dil İşleme')
+st.title('National Language Processing')
 
 uploaded_file = st.file_uploader("Upload a pdf file into the model.", type=['pdf'], accept_multiple_files=False,
                                  key=None, help=None, on_change=None, args=None, kwargs=None, disabled=False,
