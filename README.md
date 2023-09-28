@@ -36,3 +36,8 @@ This project is designed for the English Language.
 ### Docker Image
 
 https://hub.docker.com/r/mmentese21/ocrnlp
+
+    ```sh
+   docker run -p 8501:8501 [iD]
+   ```
+
